@@ -1,0 +1,13 @@
+:root{
+
+    --main-color:azure;
+    --back-color:rgb(19, 15, 28);
+    --text-color:white;
+    --border-color:aqua;
+}
+*{
+    background-color:var(--back-color);
+    color: var(--main-color);
+
+
+}
