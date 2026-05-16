@@ -1,0 +1,13 @@
+.projectsPage
+{
+     border:1px solid var(--border-color);
+    min-width:60vw;
+    margin-top:30px;
+    border-radius:10px;
+    box-shadow: 1px 1px 7px var(--border-color);
+    display:flex;
+    flex-wrap: wrap;
+    min-height:400px;
+    justify-content: center;
+    align-items: center;
+}

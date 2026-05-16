@@ -1,9 +1,33 @@
-.header-body
+.headerBody
 {
-    border:1px solid black;
-    padding :10px;
-    width:100%;
-    border-radius: 0px 0px 10px 10px;
-    margin-top:-10px;
-    box-shadow:1px 1px 5px var(--border-color);
+    border:1px solid rgb(239, 26, 101);   
+    border-bottom: 1px solid #8b5cf6; 
+    min-width:60vw;
+    border-radius:20px;
+    box-shadow:2px 2px 10px var(--border-color);
+}
+.logoss
+{
+    width: 40px;
+    margin-right:20px;
+}
+.leftSide
+{
+    display: flex;
+    align-items: center;
+}
+.span
+{
+    
+  background: linear-gradient(
+  45deg,
+  #8b5cf6,
+  #e21c7f,
+  #f97316
+);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+  
 }
