@@ -1,0 +1,11 @@
+.container
+{
+    border:1px solid cyan;
+    min-width: 60vw;
+    height:auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}

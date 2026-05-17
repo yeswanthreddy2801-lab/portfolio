@@ -1,0 +1,110 @@
+.namePage{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border:1px solid var(--border-color);
+    border-radius:10px;
+    box-shadow: 1px 1px 7px var(--border-color); */
+    height: 80vh;
+    min-width:60vw;
+}
+.span
+{
+    background: linear-gradient(
+  90deg,
+  #8b5cf6,
+  #ec4899,
+  #f97316
+);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.links
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width:330px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.nameButtons
+{
+      display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width:330px;
+    margin-top: 50px;
+
+}
+.nameButton{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px #2600ff;
+    border: 2px solid rgb(243, 66, 96);
+    background: linear-gradient( 90deg,
+red,black,blue);
+  color: rgb(254, 250, 250);
+  font-size: 14px;
+  font-weight: 550;
+  transition:transform 0.4s ease;
+
+}
+.nameButton:hover
+{
+    transform: scale(1.05);
+}
+.logos
+{
+    width:30px;
+    padding: 5px;
+    border: 1px solid rgb(31, 210, 88);
+    box-shadow: 1px 1px 5px aqua;
+    border-radius: 10px;
+    background-color: rgb(26, 29, 29);
+    height: 30px;
+}
+.logosContainer
+{
+    background: linear-gradient(
+    90deg,
+    #8b5cf6,
+    #ec4899,
+    #f97316
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 3px;
+    
+    
+
+    
+}
+.nameSize
+{
+    font-size: 55px;
+    margin-top: 30px;
+}
+
+@media(max-width:430px)
+{
+    .nameSize
+{
+    font-size: 40px;
+    
+}
+.logos
+{
+    width:20px;
+    height: 20px;
+}
+.links,.nameButtons
+{
+    min-width:60vw;
+}
+}

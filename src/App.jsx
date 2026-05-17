@@ -1,36 +1,21 @@
+import "./App.css";
+import HeaderFile from "./components/HeaderFile.jsx"
+import Profile from "./components/Profile.jsx"
+import NamePage from "./components/NamePage.jsx"
+import Projects from "./components/Projects.jsx"
+import Education from "./components/Education.jsx"
 
-import './App.css'
-import HeaderFile from './components/HeaderFile.jsx'
 
 function App() {
-
   return (
     <>
-   <HeaderFile/>
-   <Profile/>
- 
+      <HeaderFile />
+      <NamePage />
+      <Profile />
+      <Projects />
+      <Education />
     </>
-  )
-}
-
-export function Profile()
-{
-  return(
-    <div className='profile-body'>
-      <div className='about-me'>
-        hello
-      </div>
-      <div className='image-section'>
-      image
-        <div className='image'>
-          
-        </div>
-        <div className='data'>
-          data
-        </div>
-      </div>
-    </div>
   );
-
 }
-export default App
+
+export default App;
