@@ -4,6 +4,7 @@ import Profile from "./components/Profile.jsx"
 import NamePage from "./components/NamePage.jsx"
 import Projects from "./components/Projects.jsx"
 import Education from "./components/Education.jsx"
+import Connect from "./components/Connect.jsx"
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Profile />
       <Projects />
       <Education />
+      <Connect />
     </>
   );
 }
