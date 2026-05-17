@@ -1,0 +1,109 @@
+.projectContainer
+{
+    width:400px;
+    /* border-left:1px solid var(--border-color); */
+    box-shadow: 1px 1px 4px cyan;
+    border-radius: 10px;
+   margin:30px;
+    transition: all 0.4s ease;
+
+}
+.projectContainer:hover
+{
+    transform: scale(1.05);
+
+}
+.projectContainer h1
+{
+    color:blueviolet;
+    margin-left: 20px;
+}
+.catagory
+{
+    margin-left: 20px;
+    margin-bottom: 0px;
+    /* background-color:rgb(17, 17, 24); */
+    display: inline-block;
+    padding:3px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px azure;
+    background: linear-gradient(90deg,red,pink,blue);
+   background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    
+    
+
+
+}
+.tecUsed
+{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    margin-left: 20px;
+
+}
+.tecUsed p
+{
+    background-color: black;
+    box-shadow: 1px 1px 5px rgb(91, 71, 71);
+    padding: 5px;
+    border-radius: 10px;
+}
+.buttonsContainer
+{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    margin: 30px;
+}
+.buttonFull
+{
+    padding:5px;
+    background:linear-gradient(125deg,red,black,blue);
+    border-radius: 10px;
+    display:flex;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.buttonFull:hover{
+    background:linear-gradient(115deg,red,black,blue);
+    transform:scale(1.1);
+}
+.buttonIcon
+{
+    width:30px;
+    background: none;
+    cursor: pointer;
+
+}
+.buttonFull .button
+{
+    background:none;
+    border: none;
+    cursor: pointer;
+
+}
+.features p
+{
+    margin-left: 0px;
+    color: rgb(235, 220, 220);
+}
+.features p::before
+{
+    content:"•";
+    margin-right:8px;
+}
+.features{
+    margin-left: 20px;
+}
+.features h6{
+    background: linear-gradient(40deg,red,rgb(213, 75, 75),rgb(135, 166, 135));
+    display: inline-block;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
