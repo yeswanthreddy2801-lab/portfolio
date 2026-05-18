@@ -5,6 +5,7 @@ import NamePage from "./components/NamePage.jsx"
 import Projects from "./components/Projects.jsx"
 import Education from "./components/Education.jsx"
 import Connect from "./components/Connect.jsx"
+import TechnicalSkills from "./components/TechnicalSkills.jsx";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <NamePage />
       <Profile />
       <Projects />
+      <TechnicalSkills />
       <Education />
       <Connect />
     </>
