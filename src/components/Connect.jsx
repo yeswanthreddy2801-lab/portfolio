@@ -8,8 +8,8 @@ export default function Connect() {
     <>
     <h1 className="heading">Connect Me</h1>
     <div className="container">
-      <div className="leetcode" >
-        <img src={Phone} alt="" className="logo" />
+      <div className="leetcodes" >
+        <img src={Phone} alt="" className="logou" />
         <div className="leetMatter">
           <p>
            
@@ -18,8 +18,8 @@ export default function Connect() {
           <p className="gray">8297364002</p>
         </div>
       </div>
-      <div className="leetcode">
-        <img src={Gmail} alt="" className="logo" />
+      <div className="leetcodes">
+        <img src={Gmail} alt="" className="logou" />
         <div className="leetMatter">
           <p>
         
@@ -28,8 +28,8 @@ export default function Connect() {
           <p className="gray">yeswanthreddy2801@gmail.com</p>
         </div>
       </div>
-      <div className="leetcode">
-        <img src={Github} alt="" className="logo" />
+      <div className="leetcodes">
+        <img src={Github} alt="" className="logou" />
         <div className="leetMatter">
           <p>
            
@@ -38,8 +38,8 @@ export default function Connect() {
           <p className="gray">Gorusu Yeswanth Reddy</p>
         </div>
       </div>
-      <div className="leetcode">
-        <img src={Linkedin} alt="" className="logo" />
+      <div className="leetcodes">
+        <img src={Linkedin} alt="" className="logou" />
         <div className="leetMatter">
           <p>
            

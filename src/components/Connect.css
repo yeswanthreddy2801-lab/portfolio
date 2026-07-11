@@ -4,9 +4,16 @@
     justify-content: space-around;
     align-items: center;
 }
-.leetcode
+.leetcodes
 {
      display:flex;
     gap:30px; 
+    justify-content: space-around;
+    align-items: center;
 } 
+.logou
+{
+    width:30px;
+    height:30px;
 
+}
